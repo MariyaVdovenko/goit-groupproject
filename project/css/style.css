@@ -6,6 +6,7 @@ html {
 }
 .container {
     width: 320px;
+    margin: 0 auto;
 }
 .page-header {
     background-color: #161d2a;
@@ -14,7 +15,6 @@ html {
 .navigation {
     padding-top: 24px;
     margin-bottom: 30px;
-    width: 260px;
 }
 .logo {
     display: block;

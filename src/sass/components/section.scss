@@ -4,16 +4,23 @@
     margin: 0;
     margin-bottom: 30px;
 
-    @media (min-width: 768px) and (max-width: 1399px) {
+    @media (min-width: 768px) and (max-width: 1339px) {
         font-size: 30px;
+        text-align: center;
+        
     }
 
-    @media (min-width: 1400px) {
-        font-size: 48px;
+    @media (min-width: 1340px) {
+        font-size: 45px;
+        margin-bottom: 50px;
+        padding: 0;
     }
 }
 
-.section-discription {
-    font-weight: 900;
+.section-description {
+    font-weight: 700;
     line-height: 1.429; 
+    margin: 0;
+    margin-bottom: 15px;
 }
+

@@ -1,22 +1,27 @@
 .section-way {
     background-color: #102135;
     color: #fff;
+    padding-top: 40px;
+    
 }
 
 .section-way__title {
-    font-weight: 900;
+    font-weight: 700;
     font-size: 16px;
     line-height: 1.25;
+    margin: 0;
+    padding-right: 20px;
+    padding-left: 20px;
 
-    @media (min-width: 768px) and (max-width: 1399px) {
+    @media (min-width: 768px) and (max-width: 1339px) {
         font-size: 22px;
     }
 
-    @media (min-width: 1400px) {
+    @media (min-width: 1340px) {
         font-size: 30px;
         margin-bottom: 60px;
+        width: 705px;
     }
-
 }
 
 .section-way__boldtxt::before {
@@ -31,11 +36,11 @@
     font-weight: 900;
     line-height: 1.571;
 
-    @media (min-width: 768px) and (max-width: 1399px) {
+    @media (min-width: 768px) and (max-width: 1339px) {
         font-size: 16px;
     }
 
-    @media (min-width: 1400px) {
+    @media (min-width: 1340px) {
         font-size: 18px;
     }
         
@@ -44,11 +49,11 @@
 .section-way__txt {
     line-height: 1.571;
 
-    @media (min-width: 768px) and (max-width: 1399px) {
+    @media (min-width: 768px) and (max-width: 1339px) {
         font-size: 16px;
     }
 
-    @media (min-width: 1400px) {
+    @media (min-width: 1340px) {
         font-size: 18px;
     } 
 }
@@ -60,30 +65,32 @@
     line-height: 1.5;
     
 
-    @media (min-width: 768px) and (max-width: 1399px) {
+    @media (min-width: 768px) and (max-width: 1339px) {
         font-size: 40px;
     }
 
-    @media (min-width: 1400px) {
+    @media (min-width: 1340px) {
         font-size: 48px;
         margin: 0;
         margin-bottom: 60px;
     }
 }
 .section-way__reverse {
-    @media (min-width: 1400px) {
+    padding: 0 20px 34px;
+    @media (min-width: 1340px) {
         display: flex;
         flex-direction: row-reverse;
         justify-content: space-between;
 }}
 
   .section-way__part-1 {
-      @media (min-width: 1400px) {
-            width: 468px;}
+      @media (min-width: 1340px) {
+            width: 468px;
+        }
 
   }
   .section-way__part-2 {
-      @media (min-width: 1400px) {
+      @media (min-width: 1340px) {
         display: inline-block;
         width: 670px;}
   }
@@ -101,12 +108,12 @@
     font-weight: 900;
     font-family: 'acrom';
     
-    @media (min-width: 768px) and (max-width: 1399px) {
+    @media (min-width: 768px) and (max-width: 1339px) {
         width: 530px;
         font-size: 18px;
     }
 
-    @media (min-width: 1400px) {
+    @media (min-width: 1340px) {
         width: 680px;
         font-size: 30px;
     }

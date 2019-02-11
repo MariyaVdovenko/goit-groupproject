@@ -1,13 +1,11 @@
 html {
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 *,
 *::before,
 *::after {
-    -webkit-box-sizing: inherit;
-            box-sizing: inherit;
+    box-sizing: inherit;
 }
 
 img {
@@ -20,6 +18,14 @@ body {
     font-family: 'Acrom';
     color: rgb(27, 32, 42);
     font-size: 14px;
+
+    @media (min-width: 768px) and (max-width: 1339px) {
+        font-size: 16px;
+    }
+
+    @media (min-width: 1340px) {
+        font-size: 18px;
+    }
 }
 
      

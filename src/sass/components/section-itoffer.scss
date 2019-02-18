@@ -1,5 +1,11 @@
 .section-itoffer {
     padding: 0 30px 34px;
+
+    @media (min-width: 768px) and (max-width: 1339px) {
+        width: 740px;
+        margin: 0 auto;
+    }
+
     @media (min-width: 1340px) {
         padding: 0;
         }

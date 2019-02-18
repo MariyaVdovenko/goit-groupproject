@@ -3,10 +3,20 @@
 */
 @import './normalize';
 @import './base';
+
 @import './components/container';
 @import './components/list';
-
 @import './components/section';
+@import './components/page-header';
+@import './components/navigation';
+@import './components/logo';
+@import './components/hero-text';
+@import './components/container-form';
+@import './components/button-page';
+@import './components/next-p';
+@import './components/team';
+@import './components/section-team';
+@import './components/page-button';
 @import './components/section-way';
 @import './components/section-whyit';
 @import './components/section-itoffer';

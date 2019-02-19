@@ -1,5 +1,5 @@
 .section-whyit {
-    background-image: url(../../images/map_mobile.png);
+    background-image: url(./images/map_mobile.png);
     background-repeat: no-repeat;
     background-position: right 560px;
     padding: 25px 30px;
@@ -17,6 +17,16 @@
 }
 
 .desktop-flex {
+    @media (min-width: 320px) and (max-width: 767px) {
+        width: 320px;
+    margin: 0 auto;
+    }
+
+    @media screen and (min-width: 768px) and (max-width: 1339px) {
+        width: 748px;
+        margin: 0 auto;
+        
+    }
     @media (min-width: 1340px) {
     padding: 0 10px 40px;
     display: flex;
@@ -60,7 +70,7 @@
         height: 545px;
         box-shadow: 0px 15px 32px 0px rgba(0, 0, 0, 0.16), -15px 15px 0px 0px rgb(237, 240, 242);
         margin: 0 auto;
-        background-image: url(../../images/map.png);
+        background-image: url(./images/map.png);
         background-repeat: no-repeat;
         background-position-x: 317px;
         background-position-y: 295px;

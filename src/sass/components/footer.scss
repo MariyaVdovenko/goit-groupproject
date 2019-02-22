@@ -1,0 +1,41 @@
+.footer {
+    height: 480px;
+    background-color: #181c27;
+    background-image: url(../images/footerbg_desktop.png);
+    background-size: 1200px auto;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+
+.footer_link {
+    font-size: 20px;
+    color: rgb(0, 234, 255);
+    font-weight: bold;
+    text-decoration: underline;
+    text-transform: uppercase;
+    line-height: 3;
+    display: block; 
+    margin: 0;
+    text-align: center;
+
+.footer_logo {
+    display: block;
+    text-decoration: none;
+    width: 260px;
+    margin: 0 auto;
+}
+}
+
+.logo__img {
+    margin: 300px auto 15px;
+}
+
+.footer__subtitle {
+    color: #ffffff;
+    
+
+    
+}

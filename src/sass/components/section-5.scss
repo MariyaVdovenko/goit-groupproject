@@ -1,0 +1,142 @@
+.section-5 {
+    padding-top: 40px;
+}
+
+.prizes-section {
+    padding-left: 17px;
+    padding-right: 17px;
+}
+.section-5__subtitle {
+    font-size: 16px;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+.prizes {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.prizes__prize {
+    margin: 0;
+    padding: 0;
+    width: 225px;
+    background-color: #ffffff;
+    margin-bottom: 60px;
+    position: relative;
+    box-shadow: 0px 15px 32px 0px rgba(0, 0, 0, 0.16), -20px 25px 0px 0px rgb(221, 224, 226);
+} 
+
+.prizes__prize::before {
+    content: "";
+    display: block;
+    width: 67px;
+    height: 51px;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: contain;
+    top: -30px;
+    right: 5px;
+    z-index: -1;
+}
+
+    .number-01__dark::before {
+        background-image: url(../images/01__dark.png);
+    }
+    .number-02__dark::before {
+        background-image: url(../images/02__dark.png);
+    }
+    .number-03__dark::before {
+        background-image: url(../images/03__dark.png);
+    }
+
+.prizes__prize1 {
+    height: 414px;
+}
+.prizes__prize2, .prizes__prize3 {
+    height: 465px;
+}
+
+.prizes__title {
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.444;
+    padding-top: 45px;
+    width: 140px;
+    padding-left: 25px;
+} 
+
+.prizes__title::before {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 2px;
+    background: #00eaff;
+    margin: -20px -38px 20px;
+}
+
+.prizes__subtitle {
+    font-size: 14px;
+    padding-left: 23px;
+    padding-right: 5px;
+    color: #6b6f7a;
+
+}
+.section__boldtxt {
+    font-weight: 700;
+    color: #000;
+}
+
+.prizes__img {
+    margin: 0 auto;
+}
+
+.tender {
+    background-image: url(../images/partners_map.png);
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.tender__title {
+    background: #edf0f2;
+    font-size: 16px;
+    padding-left: 4px;
+    color: #222;
+    width: 100px;
+    font-weight: 700;
+}
+
+.tender__subtitle {
+    font-size: 24px;
+    color: #000;
+    font-weight: 700;
+}
+
+.icons-title {
+    background: #edf0f2;
+    font-size: 16px;
+    padding-left: 4px;
+    color: #222;
+    width: 110px;
+    font-weight: 700;
+}
+
+.partners--list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.partner {
+    margin-bottom: 15px;
+}
+.partner13 {
+    padding-right: 30px;
+}
+
+.icons {
+    padding-bottom: 40px;
+}

@@ -1,0 +1,96 @@
+.footer {
+    height: 480px;
+    background-color: #181c27;
+    background-image: url(../images/footerbg_desktop.png);
+    background-size: 1200px auto;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    padding-top: 60px;
+    padding-bottom: 30px;
+
+
+    @media screen and (min-width: 768px) {
+        height: 457px;
+        background-size: 1000px auto;
+        padding-top: 90px;
+    }
+    @media screen and (min-width: 1340px) {
+        height: 1054px;
+        background-size: auto;
+        padding-top: 255px;
+        
+    }
+}
+
+
+.footer_link {
+    font-size: 20px;
+    color: rgb(0, 234, 255);
+    font-weight: 900;
+    text-decoration: underline;
+    text-transform: uppercase;
+    // line-height: 3;
+    display: block; 
+    margin: 0;
+    text-align: center;
+
+    @media screen and (min-width: 768px) {
+        font-size: 30px;
+    }
+    @media screen and (min-width: 1340px) {
+        font-size: 60px;
+        
+    }
+}
+
+.footer__flex {
+    @media screen and (min-width: 768px) {
+        display: flex;
+        justify-content: flex-start;
+    }
+    @media screen and (min-width: 1340px) {
+        width: 1170px;
+        padding-left: 15px;
+
+    }
+}
+
+.footer_logo {
+    display: block;
+    text-decoration: none;
+    width: 260px;
+    margin: 0 auto;
+    @media screen and (min-width: 768px) {
+      flex: 0 0 100px; 
+      margin: 0 15px 0 0;
+    }
+    
+}
+
+.logo__img {
+    margin: 300px auto 15px;
+
+    @media screen and (min-width: 768px) {
+        margin: 0;
+        margin-top: 270px;
+    }
+    @media screen and (min-width: 1360px) {
+        margin-top: 630px;
+    }
+}
+
+.footer__subtitle {
+    color: #ffffff;
+    margin: 0;
+    
+    @media screen and (min-width: 768px) {
+        font-size: 18px;
+        margin-top: 270px;
+        line-height: 30px;
+        font-weight: 400;
+    }
+    @media screen and (min-width: 1360px) {
+        margin-top: 630px;
+    }
+    
+}

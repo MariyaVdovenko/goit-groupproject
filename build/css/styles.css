@@ -890,8 +890,6 @@ body {
 }
 
 .section-5__subtitle {
-  font-size: 16px;
-  margin: 0;
   margin-bottom: 30px;
 }
 
@@ -905,6 +903,7 @@ body {
   margin: 0;
   padding: 0;
   width: 225px;
+  height: 465px;
   background-color: #ffffff;
   margin-bottom: 60px;
   position: relative;
@@ -934,15 +933,6 @@ body {
 
 .number-03__dark::before {
   background-image: url(../images/03__dark.png);
-}
-
-.prizes__prize1 {
-  height: 414px;
-}
-
-.prizes__prize2,
-.prizes__prize3 {
-  height: 465px;
 }
 
 .prizes__title {
@@ -987,19 +977,22 @@ body {
   background-position: top;
 }
 
-.tender__title {
+.tender__title,
+.section-5__subtitle {
   background: #edf0f2;
   font-size: 16px;
   padding-left: 4px;
   color: #222;
   width: 100px;
   font-weight: 700;
+  margin: 0;
 }
 
 .tender__subtitle {
   font-size: 24px;
   color: #000;
   font-weight: 700;
+  text-transform: uppercase;
 }
 
 .icons-title {
@@ -1009,6 +1002,7 @@ body {
   color: #222;
   width: 110px;
   font-weight: 700;
+  margin-bottom: 32px;
 }
 
 .partners--list {
@@ -1037,23 +1031,22 @@ body {
   background-size: 1200px auto;
   background-repeat: no-repeat;
   background-position: bottom;
-  padding-top: 40px;
+  padding-top: 60px;
   padding-bottom: 30px;
 }
 
 .footer_link {
   font-size: 20px;
   color: #00eaff;
-  font-weight: bold;
+  font-weight: 900;
   text-decoration: underline;
   text-transform: uppercase;
-  line-height: 3;
   display: block;
   margin: 0;
   text-align: center;
 }
 
-.footer_link .footer_logo {
+.footer_logo {
   display: block;
   text-decoration: none;
   width: 260px;
@@ -1066,6 +1059,7 @@ body {
 
 .footer__subtitle {
   color: #ffffff;
+  margin: 0;
 }
 
 @media (min-width: 768px) {
@@ -1290,6 +1284,58 @@ body {
   .page-button {
     width: 532px;
     height: 70px;
+  }
+
+  .prizes-section {
+    padding: 0;
+  }
+
+  .prizes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .tender {
+    width: 363px;
+    margin: 0 auto 45px;
+    background-position: top right;
+  }
+
+  .partners--item {
+    padding-right: 30px;
+  }
+
+  .footer {
+    height: 457px;
+    background-size: 1000px auto;
+    padding-top: 90px;
+  }
+
+  .footer_link {
+    font-size: 30px;
+  }
+
+  .footer__flex {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .footer_logo {
+    flex: 0 0 100px;
+    margin: 0 15px 0 0;
+  }
+
+  .logo__img {
+    margin: 0;
+    margin-top: 270px;
+  }
+
+  .footer__subtitle {
+    font-size: 18px;
+    margin-top: 270px;
+    line-height: 30px;
+    font-weight: 400;
   }
 }
 
@@ -1551,6 +1597,100 @@ body {
     text-transform: none;
     font-size: 25px;
     margin-top: 76px;
+  }
+
+  .prizes-section {
+    width: 1170px;
+    padding-left: 15px;
+    padding-bottom: 135px;
+  }
+
+  .section-5__title {
+    width: 670px;
+    padding-top: 40px;
+  }
+
+  .prizes__prize {
+    width: 383px;
+    height: 290px;
+    box-shadow: none;
+  }
+
+  .prizes__prize::before {
+    -webkit-transform: rotate(270deg);
+    transform: rotate(270deg);
+    background-size: 42.85%;
+    z-index: 1;
+    right: -5px;
+  }
+
+  .prizes__title::before {
+    display: none;
+  }
+
+  .prizes__subtitle {
+    width: 255px;
+  }
+
+  .prizes__txt {
+    display: inline-block;
+  }
+
+  .prizes__prize3 {
+    position: relative;
+  }
+
+  .prizes__img--image3 {
+    position: absolute;
+    top: 60px;
+    right: 30px;
+  }
+
+  .prizes__img {
+    display: inline-block;
+  }
+
+  .section-5__desktop-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .section-5__flex-item1 {
+    order: -1;
+  }
+
+  .section-5__flex-item3 {
+    order: 3;
+  }
+
+  .section-5__flex-item2 {
+    flex-basis: 680px;
+  }
+
+  .footer {
+    height: 1054px;
+    background-size: auto;
+    padding-top: 255px;
+  }
+
+  .footer_link {
+    font-size: 60px;
+  }
+
+  .footer__flex {
+    width: 1170px;
+    padding-left: 15px;
+  }
+}
+
+@media screen and (min-width: 1360px) {
+  .logo__img {
+    margin-top: 630px;
+  }
+
+  .footer__subtitle {
+    margin-top: 630px;
   }
 }
 

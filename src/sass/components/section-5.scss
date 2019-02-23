@@ -1,14 +1,30 @@
 .section-5 {
     padding-top: 40px;
+
 }
 
 .prizes-section {
     padding-left: 17px;
     padding-right: 17px;
+
+    @media screen and (min-width: 768px) {
+        padding: 0;
+    }
+    @media screen and (min-width: 1340px) {
+        width: 1170px;
+        padding-left: 15px;
+        padding-bottom: 135px;
+    }
+
+}
+
+.section-5__title {
+    @media screen and (min-width: 1340px) {
+        width: 670px;
+        padding-top: 40px;
+    }
 }
 .section-5__subtitle {
-    font-size: 16px;
-    margin: 0;
     margin-bottom: 30px;
 }
 
@@ -16,16 +32,30 @@
     margin: 0;
     padding: 0;
     list-style: none;
+
+    @media screen and (min-width: 768px) {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
 }
 .prizes__prize {
     margin: 0;
     padding: 0;
     width: 225px;
+    height: 465px;
     background-color: #ffffff;
     margin-bottom: 60px;
     position: relative;
     box-shadow: 0px 15px 32px 0px rgba(0, 0, 0, 0.16), -20px 25px 0px 0px rgb(221, 224, 226);
-} 
+
+    @media screen and (min-width: 1340px) {
+        width: 383px;
+        height: 290px;
+        box-shadow: none;
+        ;
+    }
+}
 
 .prizes__prize::before {
     content: "";
@@ -38,7 +68,15 @@
     top: -30px;
     right: 5px;
     z-index: -1;
-}
+
+    @media screen and (min-width: 1340px) {
+        transform: rotate(270deg);
+        background-size: 42.85%;
+        z-index: 1;
+        right: -5px;
+       }
+          
+    }
 
     .number-01__dark::before {
         background-image: url(../images/01__dark.png);
@@ -49,13 +87,6 @@
     .number-03__dark::before {
         background-image: url(../images/03__dark.png);
     }
-
-.prizes__prize1 {
-    height: 414px;
-}
-.prizes__prize2, .prizes__prize3 {
-    height: 465px;
-}
 
 .prizes__title {
     font-size: 18px;
@@ -75,6 +106,10 @@
     height: 2px;
     background: #00eaff;
     margin: -20px -38px 20px;
+
+    @media screen and (min-width: 1340px) {
+        display: none;
+    }
 }
 
 .prizes__subtitle {
@@ -83,35 +118,74 @@
     padding-right: 5px;
     color: #6b6f7a;
 
+    @media screen and (min-width: 1340px) {
+        width: 255px;
+    }
+
 }
 .section__boldtxt {
     font-weight: 700;
     color: #000;
 }
 
+.prizes__txt {
+    @media screen and (min-width: 1340px) {
+        display: inline-block;
+    }
+}
+
+.prizes__prize3 {
+    @media screen and (min-width: 1340px) {
+        position: relative;  
+    }
+}
+
+.prizes__img--image3 {
+    @media screen and (min-width: 1340px) {
+        position: absolute;
+        top: 60px;
+        right: 30px;  
+    }
+}
+
 .prizes__img {
     margin: 0 auto;
+
+    @media screen and (min-width: 1340px) {
+        display: inline-block;
+        
+    }
 }
 
 .tender {
     background-image: url(../images/partners_map.png);
     background-repeat: no-repeat;
     background-position: top;
+
+
+@media screen and (min-width: 768px) {
+    width: 363px;
+    margin: 0 auto 45px;
+    background-position: top right;
+
+}
 }
 
-.tender__title {
+.tender__title, .section-5__subtitle {
     background: #edf0f2;
     font-size: 16px;
     padding-left: 4px;
     color: #222;
     width: 100px;
     font-weight: 700;
+    margin: 0;
 }
 
 .tender__subtitle {
     font-size: 24px;
     color: #000;
     font-weight: 700;
+    text-transform: uppercase;
 }
 
 .icons-title {
@@ -121,6 +195,7 @@
     color: #222;
     width: 110px;
     font-weight: 700;
+    margin-bottom: 32px;
 }
 
 .partners--list {
@@ -128,6 +203,12 @@
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: stretch;
+}
+
+.partners--item {
+    @media screen and (min-width: 768px) {
+        padding-right: 30px;
+    }
 }
 
 .partner {
@@ -139,4 +220,29 @@
 
 .icons {
     padding-bottom: 40px;
+}
+
+.section-5__desktop-flex {
+    @media screen and (min-width: 1340px) {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+    }
+}
+.section-5__flex-item1 {
+    @media screen and (min-width: 1340px) {
+        order: -1;
+    }
+}
+.section-5__flex-item3 {
+    @media screen and (min-width: 1340px) {
+        order: 3;
+        
+    }
+}
+.section-5__flex-item2 {
+    @media screen and (min-width: 1340px) {
+        flex-basis: 680px;
+    }
 }

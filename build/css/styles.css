@@ -447,6 +447,11 @@ body {
   font-size: 14px;
 }
 
+.link {
+  display: block;
+  text-decoration: none;
+}
+
 .container {
   width: 320px;
   margin: 0;
@@ -613,7 +618,8 @@ body {
 }
 
 .button-page:hover {
-  background-color: brown;
+  background: #00eaff;
+  box-shadow: 0px 2px 10px 0px rgba(0, 234, 255, 0.59);
 }
 
 .next-p {
@@ -765,7 +771,8 @@ body {
 }
 
 .page-button:hover {
-  background-color: brown;
+  background: #00eaff;
+  box-shadow: 0px 2px 10px 0px rgba(0, 234, 255, 0.59);
 }
 
 .section-way {
@@ -826,7 +833,7 @@ body {
 
 .section-way__btn:hover {
   box-shadow: 0px 2px 10px 0px rgba(0, 234, 255, 0.59);
-  text-shadow: 1px 1px 2px #00eaff, 0 0 1px rgba(0, 234, 255, 0.59);
+  background: #00eaff;
 }
 
 .section-whyit {
@@ -1093,6 +1100,10 @@ body {
   display: block;
   margin: 0;
   text-align: center;
+}
+
+.footer_link:hover {
+  color: #ff6b08;
 }
 
 .footer_logo {

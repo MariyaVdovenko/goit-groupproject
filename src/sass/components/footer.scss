@@ -43,6 +43,10 @@
     }
 }
 
+.footer_link:hover {
+    color: #ff6b08;
+}
+
 .footer__flex {
     @media screen and (min-width: 768px) {
         display: flex;
